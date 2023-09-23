@@ -1,0 +1,64 @@
+.add-wrapper {
+    height: 85vh;
+    font-weight: bold;
+}
+
+.add-wrapper .title {
+    color: white;
+    padding: 4vw 4vw 6vw 4vw;
+    font-size: 5vw;
+}
+
+.add-wrapper .title i {
+    font-size: 5vw;
+}
+
+.add-wrapper label {
+    color: #4E3975;
+    font-size: 4vw;
+    text-align: left;
+    width: 90%;
+}
+
+.add-wrapper input {
+    width: 90%;
+    font-weight: bold;
+}
+
+.add-wrapper form {
+    border-radius: 50px 50px 0 0;
+    padding-top: 12vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 100%;
+}
+
+.add-wrapper input[type="text"] {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    background-color: #fcfaff;
+    border-radius: 2vw;
+    height: 9vw;
+    padding: 0 0 0 3vw;
+    min-height: 5vw;
+    font-size: 3vw;
+}
+
+.add-wrapper input[type="text"]:focus-visible {
+    outline: 0 !important;
+    border: 2px solid lightblue !important;
+}
+
+.add-wrapper input[type="submit"] {
+    margin-top: 20px;
+    color: #4E3975;
+    background-color: #fecbb2;
+    height: 10vw;
+    border-radius: 20px;
+    outline: 0 !important;
+    border: 0;
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+.home form {
+    margin: 4vw;
+}
+
+.home input[type=text] {
+    border-radius: 5vw;
+    height: 8vw;
+    padding: 4vw;
+    border: none !important;
+    min-height: 5vw;
+    width: 100%;
+}
+
+.mt-3 {
+    margin-top: 3vw !important;
+}
+
+.mt-5 {
+    margin-top: 5vw !important;
+}
+
+.mt-2 {
+    margin-top: 2vw !important;
+}
+
+.home input[type="text"]:focus-visible {
+    outline: 0 !important;
+    border: 2px solid lightblue !important;
+}
+
+.home .title {
+    text-align: center;
+    color: white;
+    font-size: 26px;
+}
+
+.mb-8 {
+    margin-bottom: 8vw;
+}
+
+.mb-5 {
+    margin-bottom: 5vw;
+}
+
+.home .fa-plus {
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid grey;
+    height: 15vw;
+    width: 15vw;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 13px;
+    bottom: 30px;
+    cursor: pointer;
+}
